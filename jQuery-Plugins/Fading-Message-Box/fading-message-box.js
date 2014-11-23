@@ -49,9 +49,15 @@
     }
 })(jQuery)
 
-setTimeout(function(){
-    $().messageBox('message').success('success message').css('border-radius', '10px');
-}, 100);
-setTimeout(function(){
-    $().messageBox('message').error('error message');
-}, 500);
+$('<button>Success</button>')
+    .appendTo('body')
+    .click(function(){
+        $().messageBox('message').success('success message').css('border-radius', '10px');
+    });
+
+$('<button>Error</button>')
+    .appendTo('body')
+    .click(function(){
+        $().messageBox('message').error('error message');
+    });
+
