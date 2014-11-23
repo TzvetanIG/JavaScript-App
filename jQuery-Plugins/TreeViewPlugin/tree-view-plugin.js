@@ -20,7 +20,7 @@
                 .hide();
         }
 
-        function toggleDerectChildren() {
+        function toggleDerectChildren(event) {
             event.stopPropagation();
             var className = $(this)
                 .attr('class');
