@@ -1,0 +1,35 @@
+select, input  {
+    width: 300px;
+    padding: 5px;
+}
+
+table input  {
+    width: 200px;
+    padding: 5px;
+}
+
+button#addTownButton,  #saveTownButton, #townName {
+    margin-top: 25px;
+}
+
+table#townList {
+    width: 300px;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td, table th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+table tr td button {
+    float: right;
+}
+
+#countryName, #saveCountryButton, #saveTownButton, #townName {
+    display: none;
+}
+
+
+
