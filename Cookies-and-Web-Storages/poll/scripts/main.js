@@ -1,7 +1,7 @@
 (function(){
     var questions = [],
          trueAnswerIds = ['q1a2', 'q2a3', 'q3a3'],
-         timer = new Timer(20, '#timer', showResults);
+         timer = new Timer(60, '#timer', showResults);
 
     function loadQuestions(selector, trueAnswerIds){
         $(selector).each(function (index, $question) {
