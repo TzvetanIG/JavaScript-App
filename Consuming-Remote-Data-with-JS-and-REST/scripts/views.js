@@ -14,7 +14,14 @@ app.views = (function () {
     }
 
     function form(book, callback) {
-        var $form = $('<div id="'+ book.objectId +'">').load('htmlElements/form.html', function () {
+        var selector;
+        if(book){
+            selector = '<div id="'+ book.objectId +'">'
+        } else {
+            selector = '<div>';
+        }
+
+        var $form = $(selector).load('htmlElements/form.html', function () {
             if (book) {
                 $form.find('#title').val(book.title);
                 $form.find('#author').val(book.author);
