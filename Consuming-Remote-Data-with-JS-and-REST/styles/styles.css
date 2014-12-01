@@ -1,0 +1,12 @@
+.book {
+    margin-bottom: 15px;
+    border-bottom: solid 1px #000;
+}
+
+main {
+    position: relative;
+}
+
+form div{
+    margin-bottom: 15px;
+}
