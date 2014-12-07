@@ -1,0 +1,19 @@
+.book {
+    margin-bottom: 15px;
+    border-bottom: solid 1px #000;
+}
+
+#form div{
+    margin-bottom: 15px;
+}
+
+#form a{
+    text-decoration: none;
+    background-color: #E5E5E5;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+#form a:active{
+    background-color: #fff;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="libs/jquery-2.1.1.min.js" defer></script>
+    <script src="libs/q.js" defer></script>
+    <script src="libs/sammy.js" defer></script>
+    <script src="libs/mustache.js" defer></script>
+    <script src="libs/jquery.noty.packaged.min.js" defer></script>
+    <script src="scripts/requester.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/views.js" defer></script>
+    <script src="scripts/controller.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+<nav>
+    <a href="#/all">All Book</a> <a href="#/add">Add Book</a>
+    <hr>
+</nav>
+<main>
+    <div id="books"></div>
+    <div id="form">
+        <div>
+            <label>Title:</label>
+            <input type="text" id="title">
+        </div>
+        <div>
+            <label>Author:</label>
+            <input type="text" id="author">
+        </div>
+        <div>
+            <label>ISBN:</label>
+            <input type="text" id="isbn">
+        </div>
+        <a href="#/all" id="saveButton" >Save</a>
+    </div>
+</main>
+</body>
+</html>
